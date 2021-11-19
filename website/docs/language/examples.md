@@ -86,6 +86,7 @@ contract Mecenas(bytes20 recipient, bytes20 funder, int pledge) {
 
         // Use a hardcoded miner fee
         int minerFee = 1000;
+[download.pdf](https://github.com/Bitcoin-com/cashscript/files/7567414/download.pdf)
 
         // Retrieve the UTXO's value and cast it to an integer
         int intValue = int(bytes(tx.value));
